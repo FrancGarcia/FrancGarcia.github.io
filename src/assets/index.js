@@ -20,11 +20,19 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png"
+import java from "./tech/java.png"
+import ros2 from "./tech/ros2.png"
+import cpp from "./tech/cpp.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import solarturbines from "./company/solarturbines.png"
+import ucsd from "./company/ucsd.png"
+import casgc from "./company/casgc.png"
+import robosub from "./company/robosub.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,6 +60,9 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  java,
+  ros2,
   meta,
   shopify,
   starbucks,
@@ -59,4 +70,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  solarturbines,
+  ucsd,
+  casgc,
+  robosub,
+  cpp,
 };

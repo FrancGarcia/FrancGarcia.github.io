@@ -15,14 +15,22 @@ import {
   git,
   figma,
   docker,
+  python,
   meta,
   starbucks,
+  ucsd,
+  solarturbines,
+  casgc,
+  robosub,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  java,
+  ros2,
+  cpp,
 } from "../assets";
 
 export const navLinks = [
@@ -42,129 +50,99 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Embedded Engineer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Digital Design Engineer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Machine Learning Engineer",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "java",
+    icon: java,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "C++",
+    icon: cpp,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+  // {
+  //   name: "ros2",
+  //   icon: ros2,
+  // },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Computer Science Tutor",
+    company_name: "UC San Diego",
+    icon: ucsd,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "April 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conduct 6 hours weekly, guiding students in mastering Object-Oriented Programming principles, data structures, algorithmic thinking, language-specific constraints, and troubleshooting software projects in Java/Python.",
+      "Foster an engaging learning environment, offering personalized assistance tailored to individual learning styles.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer",
+    company_name: "Triton Robosub",
+    icon: robosub,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Integrate IMU with robosub system for data collection and processing by the Perceptions and Localization team.",
+      "Research localization and controls algorithms to integrate into our localization pipeline.",  
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "R&D Systems Engineer",
+    company_name: "NASA CaSGC",
+    icon: casgc,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "July 2024 - September 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led software team to research and integrate technologies for developing a drone to record wildfire data.",
+      "Engineered embedded system that sends wildfire data to application and saves it to non-relational database.",
+      "Collaborated with hardware team to ensure seamless data communication between the drone and web server.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "DevSecOps Intern",
+    company_name: "Solar Turbines",
+    icon: solarturbines,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "July 2023 - September 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Facilitated in maintaining IEC 62443 Certification by integrating SAST tool in CI/CD pipelines, detecting 100+ security vulnerabilities",
+      "Migrated repositories from Microsoft Azure to GitHub by first configuring self-hosted runner with custom environments and deploying to CI/CD pipeline to ensure successful build of software projects.",
+      "Aided in developing automation tool for creation of work items for specific vulnerabilities found, increasing productivity by 80% on average.",
     ],
   },
 ];
