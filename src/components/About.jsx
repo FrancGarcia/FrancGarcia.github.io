@@ -10,7 +10,7 @@ const ServiceCard = ({index, title, icon}) => {
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-        className="w-full gree-pink-gradient p-[1px] rounded-[20px] shadow-card"
+        className="w-full blue-gradient p-[1px] rounded-[20px] shadow-card"
       >
         <div
           options={{
@@ -18,7 +18,7 @@ const ServiceCard = ({index, title, icon}) => {
             scale:1,
             speed:450
           }}
-          className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evently items-center flex-col"
+          className="bg-[#0A1F44] rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evently items-center flex-col"
         >
           <img src={icon} alt={title} className="w-16 h-16 object-contain" />
           <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
@@ -40,7 +40,10 @@ const About = () => {
         className="mt-4 text-secondary text-[17px]
         max-w-3xl leading-[30px]"
       >
-        I am Computer Engineering student at UC San Diego.
+        Recent graduate with a B.S. in Computer Engineering from UC San Diego.
+        Pursuing a M.S. in Machine Learning and Data Science from UC San Diego. Interested in using
+        my skillset to solve programs and develop unique solutions in healthcare and government
+        applications. Open to discuss new opportunities that will challenge evolve and learn.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

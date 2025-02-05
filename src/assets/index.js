@@ -24,6 +24,7 @@ import python from "./tech/python.png"
 import java from "./tech/java.png"
 import ros2 from "./tech/ros2.png"
 import cpp from "./tech/cpp.png"
+import sql from "./tech/sql.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -75,4 +76,5 @@ export {
   casgc,
   robosub,
   cpp,
+  sql,
 };

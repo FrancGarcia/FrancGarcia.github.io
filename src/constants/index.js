@@ -31,6 +31,7 @@ import {
   java,
   ros2,
   cpp,
+  sql,
 } from "../assets";
 
 export const navLinks = [
@@ -54,20 +55,24 @@ const services = [
     icon: web,
   },
   {
-    title: "Embedded Engineer",
+    title: "Data Analyst",
     icon: mobile,
   },
   {
-    title: "Digital Design Engineer",
+    title: "Machine Learning Engineer",
     icon: backend,
   },
   {
-    title: "Machine Learning Engineer",
+    title: "Digital Design Engineer",
     icon: creator,
   },
 ];
 
 const technologies = [
+  {
+    name: "C++",
+    icon: cpp,
+  },
   {
     name: "java",
     icon: java,
@@ -76,10 +81,10 @@ const technologies = [
     name: "Python",
     icon: python,
   },
-  {
-    name: "C++",
-    icon: cpp,
-  },
+  // {
+  //   name: "SQL",
+  //   icon: sql,
+  // },
   // {
   //   name: "ros2",
   //   icon: ros2,
@@ -176,67 +181,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Heart Disease Analytics",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Complete data analysis on the main predictors of early heart disease coupled with a predictor model to determine heart health of patients",
     tags: [
       {
-        name: "react",
+        name: "pandas",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "scikit-learn",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "matplotlib",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/FrancGarcia/heart-disease-analysis",
   },
   {
-    name: "Job IT",
+    name: "Wildfire Monitor System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Prototypical system that maps wildfire data (recorded from custome drone) on webapp in interactive map. Saves wildifre data in MongoDB cluster for future analysis.",
     tags: [
       {
-        name: "react",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "node.js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/FrancGarcia/CaSGC-Group2",
   },
   {
-    name: "Trip Guide",
+    name: "PantryPal",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive webapp that utilizes ChatGPT API to generate recipes given list of ingredients. Stores recipes in database. Allows for multiple users.",
     tags: [
       {
-        name: "nextjs",
+        name: "java",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "chatgptapi",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ucsd-cse110-fa23/cse-110-project-team-14",
   },
 ];
 
