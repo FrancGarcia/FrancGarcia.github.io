@@ -20,7 +20,7 @@ const ServiceCard = ({index, title, icon}) => {
           }}
           className="bg-[#0A1F44] rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evently items-center flex-col"
         >
-          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+          <img src={icon} alt={title} className="w-16 h-16 object-contain filter invert brightness-200" />
           <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
         </div>
       </motion.div>
@@ -43,7 +43,7 @@ const About = () => {
         Recent graduate with a B.S. in Computer Engineering from UC San Diego.
         Pursuing a M.S. in Machine Learning and Data Science from UC San Diego. Interested in using
         my skillset to solve programs and develop unique solutions in healthcare and government
-        applications. Open to discuss new opportunities that will challenge evolve and learn.
+        applications. Open to discuss new opportunities that will challenge me to evolve and learn.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

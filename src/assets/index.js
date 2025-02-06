@@ -6,6 +6,11 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import mail from "./mail.png"
+import analyst from "./analyst.png"
+import code from "./code.png"
+import data from "./dataeng.png"
+import embedded from "./embedded.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -34,6 +39,7 @@ import solarturbines from "./company/solarturbines.png"
 import ucsd from "./company/ucsd.png"
 import casgc from "./company/casgc.png"
 import robosub from "./company/robosub.png"
+import tutor from "./company/tutor.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -48,7 +54,12 @@ export {
   creator,
   mobile,
   web,
+  code,
+  data,
+  analyst,
+  embedded,
   github,
+  mail,
   menu,
   close,
   css,
@@ -78,6 +89,7 @@ export {
   ucsd,
   casgc,
   robosub,
+  tutor,
   cpp,
   sql,
   heartdisease,
