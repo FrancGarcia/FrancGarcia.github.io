@@ -32,6 +32,9 @@ import {
   ros2,
   cpp,
   sql,
+  heartdisease,
+  wildfires,
+  pantrypal,
 } from "../assets";
 
 export const navLinks = [
@@ -198,7 +201,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: heartdisease,
     source_code_link: "https://github.com/FrancGarcia/heart-disease-analysis",
   },
   {
@@ -219,7 +222,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: wildfires,
     source_code_link: "https://github.com/FrancGarcia/CaSGC-Group2",
   },
   {
@@ -240,7 +243,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: pantrypal,
     source_code_link: "https://github.com/ucsd-cse110-fa23/cse-110-project-team-14",
   },
 ];

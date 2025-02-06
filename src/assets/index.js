@@ -38,6 +38,9 @@ import robosub from "./company/robosub.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import heartdisease from "./heartdisease.png"
+import wildfires from "./wildfires.png"
+import pantrypal from "./pantrypal.jpg"
 
 export {
   logo,
@@ -77,4 +80,7 @@ export {
   robosub,
   cpp,
   sql,
+  heartdisease,
+  wildfires,
+  pantrypal,
 };
