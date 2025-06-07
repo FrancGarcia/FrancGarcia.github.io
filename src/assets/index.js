@@ -7,10 +7,12 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import mail from "./mail.png"
+import linkedin from "./linkedin.png"
 import analyst from "./analyst.png"
 import code from "./code.png"
 import data from "./dataeng.png"
 import embedded from "./embedded.png"
+import cloud from "./cloud.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -30,6 +32,7 @@ import java from "./tech/java.png"
 import ros2 from "./tech/ros2.png"
 import cpp from "./tech/cpp.png"
 import sql from "./tech/sql.png"
+import kubernetes from "./tech/kubernetes.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -40,6 +43,7 @@ import ucsd from "./company/ucsd.png"
 import casgc from "./company/casgc.png"
 import robosub from "./company/robosub.png"
 import tutor from "./company/tutor.png"
+import qualcomm from "./company/qualcomm.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -55,11 +59,13 @@ export {
   mobile,
   web,
   code,
+  cloud,
   data,
   analyst,
   embedded,
   github,
   mail,
+  linkedin,
   menu,
   close,
   css,
@@ -90,8 +96,10 @@ export {
   casgc,
   robosub,
   tutor,
+  qualcomm,
   cpp,
   sql,
+  kubernetes,
   heartdisease,
   wildfires,
   pantrypal,

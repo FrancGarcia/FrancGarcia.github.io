@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { styles } from '../styles'
 import { navLinks } from '../constants'
-import { logo, menu, close, mail, github } from '../assets'
+import { logo, menu, close, mail, github, linkedin} from '../assets'
 
 const Navbar = () => {
   const [active, setActive] = useState('')
@@ -45,7 +45,9 @@ const Navbar = () => {
             <a href="https://github.com/FrancGarcia" target="_blank" rel="noopener noreferrer">
               <img src={github} alt="GitHub" className="w-8 h-8 transform hover:scale-110 transition duration-300 cursor-pointer" />
             </a>
-            
+            <a href="https://www.linkedin.com/in/francisco-garcia-351270219/">
+              <img src={linkedin} alt="LinkedIn" className="w-8 h-8 transform hover:scale-110 transition duration-300 cursor-pointer" />
+            </a>
             <a href="mailto:frgarciaa1@gmail.com">
               <img src={mail} alt="Email" className="w-8 h-8 transform hover:scale-110 transition duration-300 cursor-pointer filter invert brightness-200" />
             </a>
@@ -87,6 +89,10 @@ const Navbar = () => {
                   <img src={github} alt="GitHub" className="w-8 h-8 transform hover:scale-110 transition duration-300 cursor-pointer" />
                 </a>
                 
+                <a href="https://www.linkedin.com/in/francisco-garcia-2b3745234/">
+                  <img src={linkedin} alt="LinkedIn" className="w-8 h-8 transform hover:scale-110 transition duration-300 cursor-pointer" />
+                </a>
+
                 <a href="mailto:frgarciaa1@gmail.com">
                   <img src={mail} alt="Email" className="w-8 h-8 transform hover:scale-110 transition duration-300 cursor-pointer filter invert brightness-200" />
                 </a>

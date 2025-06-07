@@ -40,10 +40,10 @@ const About = () => {
         className="mt-4 text-secondary text-[17px]
         max-w-3xl leading-[30px]"
       >
-        Recent graduate with a B.S. in Computer Engineering from UC San Diego.
-        Pursuing a M.S. in Machine Learning and Data Science from UC San Diego. Interested in using
-        my skillset to solve programs and develop unique solutions in healthcare and government
-        applications. Open to discuss new opportunities that will challenge me to evolve and learn.
+        Recent B.S. Computer Engineering graduate from UC San Diego.
+        Pursuing a M.S. in Computer Engineering with a focus in Computer Systems and VLSI Digital Design from UC San Diego. Interested in using
+        my skillset to solve programs and develop unique solutions in both hardware and software. 
+        Open to discuss new opportunities that will challenge me to evolve and learn.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

@@ -1,30 +1,20 @@
 import {
   code,
   data,
-  analyst,
+  cloud,
   embedded,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
   mongodb,
   git,
   python,
   tutor,
   solarturbines,
   casgc,
-  robosub,
-  java,
-  ros2,
-  cpp,
-  sql,
+  docker,
   heartdisease,
   wildfires,
   pantrypal,
+  qualcomm,
+  kubernetes,
 } from "../assets";
 
 export const navLinks = [
@@ -52,36 +42,28 @@ const services = [
     icon: data,
   },
   {
-    title: "Data Analyst",
-    icon: analyst,
+    title: "Digital Design Engineer",
+    icon: embedded,
   },
   {
-    title: "Embedded Engineer",
-    icon: embedded,
+    title: "Cloud Engineer",
+    icon: cloud,
   },
 ];
 
 const technologies = [
   {
-    name: "java",
-    icon: java,
+    name: "kubernetes",
+    icon: kubernetes,
   },
   {
-    name: "C++",
-    icon: cpp,
+    name: "docker",
+    icon: docker,
   },
   {
     name: "Python",
     icon: python,
   },
-  // {
-  //   name: "SQL",
-  //   icon: sql,
-  // },
-  // {
-  //   name: "ros2",
-  //   icon: ros2,
-  // },
   {
     name: "MongoDB",
     icon: mongodb,
@@ -90,22 +72,17 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
 ];
 
 const experiences = [
   {
-    title: "Software Engineer",
-    company_name: "Triton Robosub",
-    icon: robosub,
+    title: "Cloud DevOps Engineer Intern",
+    company_name: "Qualcomm",
+    icon: qualcomm,
     iconBg: "#E6DEDD",
-    date: "Jan 2025 - Present",
+    date: "June 2025 - September 2025",
     points: [
-      "Integrate IMU with robosub system for data collection and processing by the Perceptions and Localization team.",
-      "Research localization and controls algorithms to integrate into our localization pipeline.",  
+      "Internship just started. Stay tuned to find out more about what I learn and accomplish!",
     ],
   },
   {
