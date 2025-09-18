@@ -15,6 +15,7 @@ import {
   pantrypal,
   qualcomm,
   kubernetes,
+  bumblebee,
 } from "../assets";
 
 export const navLinks = [
@@ -38,17 +39,17 @@ const services = [
     icon: code,
   },
   {
+    title: "Cloud Engineer",
+    icon: cloud,
+  },
+  {
     title: "Data Engineer",
     icon: data,
   },
   {
     title: "Digital Design Engineer",
     icon: embedded,
-  },
-  {
-    title: "Cloud Engineer",
-    icon: cloud,
-  },
+  }
 ];
 
 const technologies = [
@@ -76,13 +77,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Cloud DevOps Engineer Intern",
+    title: "Cloud Software Engineer Intern",
     company_name: "Qualcomm",
     icon: qualcomm,
     iconBg: "#E6DEDD",
     date: "June 2025 - September 2025",
     points: [
-      "Internship just started. Stay tuned to find out more about what I learn and accomplish!",
+      "Developed a full-stack application for automating the collection of AWS account data crucial for migrating infrastructures.",
+      "Integrated an LLM that summarizes collected data to finalize migration plans of multiple cloud infrastructures.",
+      "Optimized data collection and summarization, speeding cloud introspection from days to minutes."
     ],
   },
   {
@@ -90,7 +93,7 @@ const experiences = [
     company_name: "Tutor.com Princeton Review",
     icon: tutor,
     iconBg: "#E6DEDD",
-    date: "April 2024 - Present",
+    date: "April 2024 - September 2025",
     points: [
       "Conduct 6 hours weekly, guiding students in mastering Object-Oriented Programming principles, data structures, algorithmic thinking, language-specific constraints, and troubleshooting software projects in Java/Python.",
       "Foster an engaging learning environment, offering personalized assistance tailored to individual learning styles.",
@@ -150,6 +153,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Robocar IMU Integration",
+    description:
+      "Integrated IMU into Donkeycar framework to enhance self-driving capabilities of autonomous vehicles. Developed a custom Kalman filter to improve sensor accuracy.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "kalmanfilter",
+        color: "green-text-gradient",
+      },
+      {
+        name: "donkeycar",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bumblebee,
+    source_code_link: "https://github.com/UCSD-ECEMAE-148/148-winter-2025-final-project-team-7"
+  },
   {
     name: "Heart Disease Analytics",
     description:

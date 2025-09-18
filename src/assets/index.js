@@ -51,6 +51,7 @@ import tripguide from "./tripguide.png";
 import heartdisease from "./heartdisease.png"
 import wildfires from "./wildfires.png"
 import pantrypal from "./pantrypal.jpg"
+import bumblebee from "./bumblebee.png"
 
 export {
   logo,
@@ -103,4 +104,5 @@ export {
   heartdisease,
   wildfires,
   pantrypal,
+  bumblebee,
 };

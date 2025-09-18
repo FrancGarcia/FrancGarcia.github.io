@@ -41,7 +41,7 @@ const About = () => {
         max-w-3xl leading-[30px]"
       >
         Recent B.S. Computer Engineering graduate from UC San Diego.
-        Pursuing a M.S. in Computer Engineering with a focus in Computer Systems and VLSI Digital Design from UC San Diego. Interested in using
+        Pursuing a M.S. in Computer Engineering with a focus in Computer Systems from UC San Diego. Interested in using
         my skillset to solve programs and develop unique solutions in both hardware and software. 
         Open to discuss new opportunities that will challenge me to evolve and learn.
       </motion.p>
